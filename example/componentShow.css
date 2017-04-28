@@ -1,0 +1,130 @@
+.ui-show {
+	margin-top: 25px;
+	min-width: 1300px;
+}
+.inline-block {
+	display: inline-block;
+}
+.tree {
+	width: 250px;
+	margin: 0px 10px 0px 130px;
+	float: left;
+	font-family: Helvetica Neue,Helvetica,Tahoma,Microsoft Yahei;
+}
+.content {
+	width: 890px;
+	float: left;
+}
+
+
+h2.title {
+    line-height: 40px;
+    border-bottom: 1px solid #eceaea;
+    font-size: 20px;
+}
+h2.title span:last-child {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #999;
+}
+h3.sub-title {
+    line-height: 34px;
+    margin: 10px 0;
+}
+h4.final-title {
+	color: #8F8F8F;
+    line-height: 28px;
+    margin: 5px 0;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mr10 {
+	margin-right: 10px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.none {
+	display: none;
+}
+
+
+/*show start*/
+.example .rui-label {
+	display: inline-block;
+    margin: 0 0 5px;
+    width: 65px;
+    font-weight: 700;
+    line-height: 38px;
+    font-family: Helvetica Neue;
+}
+.example label {
+    display: inline-block;
+    line-height: 36px;
+}
+.example .rui-radiogroup {
+	display: inline-block;
+}
+/*show end*/
+
+
+/*nav start*/
+.nav-node {
+    padding-left: 10px;
+    line-height: 33px;
+    font-size: 14px;
+    height: 33px;
+    cursor: pointer;
+}
+.nav-node:hover {
+    background-color: #E8E8E8;
+}
+.nav-checked {
+	border-left: 5px solid #2ea3dd;
+}
+/*nav end*/
+
+
+/*input start*/
+.example-input .rui-input, .example-tooltip .example>div {
+    margin-bottom: 10px;
+}
+/*input end*/
+
+
+/*spinner start*/
+label {
+    width: 120px;
+    display: inline-block;
+    line-height: 36px;
+}
+/*spinner end*/
+
+
+/*dialog start*/
+.example .rui-button {
+    margin-right: 10px;
+}
+/*dialog end*/
+
+
+/*datepicker start*/
+.example-datepicker .rui-input {
+    margin-bottom: 10px;
+}
+/*datepicker end*/
+
+
+.tips {
+    border: 1px solid #94c7ff;
+    border-radius: 6px 6px;
+    color: #666;
+    padding: 7px 20px;
+    max-width: 300px;
+    background: #f6faff;
+    position: fixed;
+    width: auto;
+    top: 50%;
+    left: 50%;
+}
